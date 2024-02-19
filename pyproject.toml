@@ -10,6 +10,8 @@ packages = [{include = "wandb_quick_intro"}]
 python = "^3.8"
 wandb = "^0.16.3"
 ipykernel = "^6.29.2"
+torch = "^2.2.0"
+torchvision = "^0.17.0"
 
 
 [tool.poetry.group.dev.dependencies]

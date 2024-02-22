@@ -3,9 +3,6 @@ method: bayes
 metric:
   name: validation_accuracy
   goal: maximize
-early_terminate:
-  type: hyperband
-  min_iter: 5
 parameters:
   num_epochs:
     min: 1
